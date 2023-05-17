@@ -6,7 +6,7 @@ const Home = () => {
   const{Input,Item,InputFeild,btnAdd,itemRemove,setError} = useGlobal();
   return (
        <> 
-       <div className="container mt-3 bg-light p-3">
+       <div className="container mt-3 bg-light p-4">
        <h1 className="text-center bg-warning">ToDo List</h1>
        <div className="form-outline text-center">
        <p className="text-danger">{setError}</p>
